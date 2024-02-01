@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@500;600;700&family=Lexend+Deca&family=Outfit:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Hanken+Grotesk:wght@500;600;700&family=Lexend+Deca&family=Outfit:wght@400;700&display=swap');
+body {
+    background-color: #ffffff;
+}
+.attribution {
+    width: 100%;
+    height: 500px;
+    width: 900px;
+    margin-top: 6.5rem;
+    margin-bottom: auto;
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+}
+.sedans {
+    width: 100%;
+    max-width: 300px;
+    background-color: hsl(31, 77%, 52%);
+    color: hsl(0, 0%, 95%);
+    padding-left: 30px;
+    padding-top: 30px;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.suvs {
+    width: 100%;
+    max-width: 300px;
+    background-color: hsl(184, 100%, 22%);
+    color: hsl(0, 0%, 95%);
+    padding-left: 30px;
+    padding-top: 30px;
+}
+.luxury {
+    width: 100%;
+    max-width: 300px;
+    background-color: hsl(179, 100%, 13%);
+    color: hsl(0, 0%, 95%);
+    padding-left: 30px;
+    padding-top: 30px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+}
+p {
+    font-size: 20px;
+    text-align: left;
+    color: hsla(0, 0%, 100%, 0.75);
+    /* font-family: 'Hanken Grotesk', sans-serif; */
+    font-family: 'Lexend Deca', sans-serif;
+    /* font-family: 'Outfit', sans-serif; */
+}
+ h1 {
+    font-size: 45px;
+    font-family: 'Big Shoulders Display', cursive;
+    /* font-family: 'Hanken Grotesk', sans-serif;
+    font-family: 'Lexend Deca', sans-serif;
+    font-family: 'Outfit', sans-serif; */
+} 
+.first {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(31, 77%, 52%);
+    position: absolute;
+    top: 32rem;
+    height: 30px;
+    max-width: 100px;
+    border-radius: 20px;
+    border-color: #ffffff;
+}
+.second {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(184, 100%, 22%);
+    position: absolute;
+    top: 32rem;
+    height: 30px;
+    max-width: 100px;
+    border-radius: 20px;
+    border-color: #ffffff;
+}
+.third {
+    background-color: hsl(0, 0%, 95%);
+    color: hsl(179, 100%, 13%);
+    position: absolute;
+    top: 32rem;
+    height: 30px;
+    max-width: 100px;
+    border-radius: 20px;
+    border-color: #ffffff;
+}
+.img {
+    max-width: 90px;
+}
